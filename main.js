@@ -19,24 +19,8 @@ if (navToggle && navLinks) {
   });
 }
 
-// ====== スクロール時ヘッダー .scrolled ======
-const header = document.getElementById('header');
-if (header) {
-  const onScroll = () => header.classList.toggle('scrolled', window.scrollY > 10);
-  window.addEventListener('scroll', onScroll, { passive: true });
-  onScroll();
-}
-
-// ====== IntersectionObserver: .fade-up ======
-const fadeEls = document.querySelectorAll('.fade-up');
-if (fadeEls.length) {
-  const io = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
-        io.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.08 });
-  fadeEls.forEach(el => io.observe(el));
-}
+// ====== スクロールアニメーション ======
+const io = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); });
+}, { threshold: 0.12 });
+document.querySelectorAll('.reveal').forEach(el => io.observe(el));
