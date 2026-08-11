@@ -1,8 +1,8 @@
+/* HONEY HOLKA */
 'use strict';
 
-// ====== ハンバーガーメニュー ======
 const navToggle = document.getElementById('navToggle');
-const navLinks  = document.getElementById('navLinks');
+const navLinks = document.getElementById('navLinks');
 
 if (navToggle && navLinks) {
   navToggle.addEventListener('click', () => {
@@ -10,6 +10,7 @@ if (navToggle && navLinks) {
     navLinks.classList.toggle('open', isOpen);
     navToggle.setAttribute('aria-expanded', String(isOpen));
   });
+
   navLinks.querySelectorAll('a').forEach(link => {
     link.addEventListener('click', () => {
       navToggle.classList.remove('open');
@@ -19,8 +20,13 @@ if (navToggle && navLinks) {
   });
 }
 
-// ====== スクロールアニメーション ======
 const io = new IntersectionObserver(entries => {
-  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); });
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('in');
+      io.unobserve(entry.target);
+    }
+  });
 }, { threshold: 0.12 });
+
 document.querySelectorAll('.reveal').forEach(el => io.observe(el));

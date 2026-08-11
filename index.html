@@ -3,36 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HONEY HOLKA | 浜松の自家製はちみつはちみつ屋さん</title>
-  <meta name="description" content="浜松産100%はちみつを使った自家製ドリンク専門店。生はちみつレモネード・ハニーミルクなど。浜松市中央区山下町94-2。テイクアウトOK。">
-  <meta name="keywords" content="HONEY HOLKA,ハニーホルカ,はちみつ,浜松,ドリンク,テイクアウト,かき氷,レモネード">
+  <title>HONEY HOLKA｜浜松の自家製はちみつ販売所</title>
+  <meta name="description" content="浜松で養蜂をする「はちみつシスターズ」の自家製はちみつ販売所、HONEY HOLKA。季節の花から採れたはちみつを販売しています。販売所では、はちみつを使ったドリンクや夏季限定のかき氷も楽しめます。">
   <link rel="canonical" href="https://honey-holka.com/">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="HONEY HOLKA | 浜松の自家製はちみつはちみつ屋さん">
-  <meta property="og:description" content="浜松産100%はちみつを使った自家製ドリンク専門店。浜松市中央区山下町94-2。テイクアウトOK。">
+  <meta property="og:title" content="HONEY HOLKA｜浜松の自家製はちみつ販売所">
+  <meta property="og:description" content="浜松で養蜂をする「はちみつシスターズ」の自家製はちみつ販売所。販売所では、はちみつを使ったドリンクも楽しめます。">
   <meta property="og:url" content="https://honey-holka.com/">
   <meta property="og:image" content="https://honey-holka.com/ogp.jpg">
   <meta property="og:locale" content="ja_JP">
   <meta property="og:site_name" content="HONEY HOLKA">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="HONEY HOLKA | 浜松の自家製はちみつはちみつ屋さん">
-  <meta name="twitter:description" content="浜松産100%はちみつを使った自家製ドリンク専門店。">
+  <meta name="twitter:title" content="HONEY HOLKA｜浜松の自家製はちみつ販売所">
+  <meta name="twitter:description" content="浜松で養蜂をする「はちみつシスターズ」の自家製はちみつ販売所。">
   <meta name="twitter:image" content="https://honey-holka.com/ogp.jpg">
 
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "CafeOrCoffeeShop",
+    "@type": "LocalBusiness",
     "name": "HONEY HOLKA",
-    "description": "浜松産100%はちみつを使った自家製ドリンク専門店",
+    "description": "浜松で養蜂をするはちみつシスターズの自家製はちみつ販売所。販売所では、はちみつを使ったドリンクも楽しめます。",
     "url": "https://honey-holka.com/",
-    "sameAs": [
-      "https://www.instagram.com/honey_holka/",
-      "https://x.com/honey_holka",
-      "https://www.threads.net/@honey_holka"
-    ],
+    "image": "https://honey-holka.com/ogp.jpg",
+    "sameAs": ["https://www.instagram.com/honey_holka/"],
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "山下町94-2 1階",
@@ -40,9 +36,7 @@
       "addressRegion": "静岡県",
       "postalCode": "430-0929",
       "addressCountry": "JP"
-    },
-    "openingHours": "Tu-Su 10:00-16:00",
-    "servesCuisine": "はちみつドリンク"
+    }
   }
   </script>
 
@@ -54,17 +48,17 @@
 </head>
 <body>
 
-<!-- ===== HEADER ===== -->
 <header id="header">
   <div class="nav-wrap">
-    <a href="#" class="brand">
-      <img src="images/symbol.png" alt="HONEY HOLKA シンボル" class="brand-symbol">
-      HONEY HOLKA
+    <a href="#hero" class="brand" aria-label="HONEY HOLKA トップへ">
+      <img src="images/symbol.png" alt="" class="brand-symbol">
+      <span>HONEY HOLKA</span>
     </a>
-    <nav>
+    <nav aria-label="メインメニュー">
       <ul id="navLinks">
-        <li><a href="#concept">コンセプト</a></li>
-        <li><a href="#menu">メニュー</a></li>
+        <li><a href="#honey">はちみつ</a></li>
+        <li><a href="#story">私たちについて</a></li>
+        <li><a href="#menu">販売所で飲めるもの</a></li>
         <li><a href="#shop">店舗情報</a></li>
         <li><a href="#sns">SNS</a></li>
       </ul>
@@ -75,209 +69,358 @@
   </div>
 </header>
 
-<!-- ===== HERO ===== -->
-<section class="hero" id="hero">
-  <div class="honeycomb-bg" aria-hidden="true"></div>
-  <div class="hero-inner">
-    <div class="hero-text reveal">
-      <span class="eyebrow">🐝 はちみつシスターズ / Since 2021 From Hamamatsu</span>
-      <h1>ミツバチの、<br><span class="accent hand">かわいい</span>を届けたい。</h1>
-      <p class="lead">浜松で養蜂をする女の子たちがお届けする、自家製はちみつたっぷりのはちみつ屋さん。すべての命が仲良く暮らせる社会を願って、今日も一杯に想いを込めています。</p>
-      <div class="btn-row">
-        <a href="#menu" class="btn btn-primary">メニューを見る</a>
-        <a href="#shop" class="btn btn-ghost">店舗情報</a>
+<main>
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="honeycomb-bg" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <div class="hero-text reveal">
+        <span class="eyebrow">🐝 はちみつシスターズ / Since 2021 / From Hamamatsu</span>
+        <h1>ミツバチの、<br><span class="accent hand">かわいい</span>を届けたい。</h1>
+        <p class="hero-sub">ミツバチと、はちみつをつくる。<br><strong>浜松で養蜂をする「はちみつシスターズ」。</strong></p>
+        <p class="lead">ミツバチたちと一緒に、季節の花からはちみつをつくり、そのおいしさや、ミツバチの魅力を届けています。<br><br>はちみつを食べて、「おいしい！」と思ったその先に、ミツバチや花、自然のことも少し好きになってもらえたら。そんな想いで、今日もミツバチと向き合っています。</p>
+        <div class="btn-row">
+          <a href="#honey" class="btn btn-primary">はちみつを見る</a>
+          <a href="#shop" class="btn btn-ghost">販売所へ行く</a>
+        </div>
+      </div>
+      <div class="hero-photo reveal">
+        <span class="hero-stamp">100%<br><small>HAMAMATSU</small></span>
+        <div class="hex-frame">
+          <img src="images/main.png" alt="HONEY HOLKAの自家製はちみつ" fetchpriority="high">
+        </div>
       </div>
     </div>
-    <div class="hero-photo reveal">
-      <img class="bee-float"
-           src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cellipse cx='20' cy='24' rx='9' ry='10' fill='%23E3A11F'/%3E%3Cpath d='M11 24 Q20 18 29 24' stroke='%232A2520' stroke-width='2.4' fill='none'/%3E%3Cpath d='M11 27 Q20 22 29 27' stroke='%232A2520' stroke-width='2.4' fill='none'/%3E%3Ccircle cx='20' cy='12' r='4' fill='%232A2520'/%3E%3Cpath d='M12 16 Q6 8 14 6 Q16 12 12 16Z' fill='%236FC3BD' opacity='0.85'/%3E%3Cpath d='M28 16 Q34 8 26 6 Q24 12 28 16Z' fill='%236FC3BD' opacity='0.85'/%3E%3C/svg%3E"
-           alt="">
-      <div class="hex-frame">
-        <img src="images/main.png"
-             alt="HONEY HOLKAのはちみつ"
-             fetchpriority="high">
-      </div>
-    </div>
-  </div>
-</section>
+  </section>
 
-<!-- ===== CONCEPT ===== -->
-<section class="concept" id="concept">
-  <div class="section-inner">
-    <div class="section-head reveal">
-      <span class="tag hand">Our Story</span>
-      <h2>はちみつシスターズが、目指すもの</h2>
-    </div>
-    <div class="concept-grid reveal">
+  <!-- VISIT NOTICE -->
+  <section class="visit-strip">
+    <div class="section-inner visit-inner">
       <div>
-        <span class="sisters-badge">🍯 はちみつシスターズ</span>
-        <p>浜松で養蜂をおこなう女の子たちが立ち上げた、はちみつドリンクの小さなお店。自分たちで育てたミツバチから採れる生はちみつを、できるだけそのままの美味しさでお届けしたい ── そんな想いから始まりました。</p>
-        <p>ミツバチという生きものの可愛らしさを、もっとたくさんの人に知ってほしい。そして、ミツバチも、人も、すべての命が仲良く暮らせる社会になってほしい。そんな願いを、一杯のドリンクに込めています。</p>
-        <ul class="concept-points">
-          <li>
-            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#6FC3BD"/><path d="M8 12l3 3 5-6" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            ミツバチの可愛さを発信したい
-          </li>
-          <li>
-            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#E3A11F"/><path d="M8 12l3 3 5-6" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            全ての命が仲良く暮らせる社会へ
-          </li>
-          <li>
-            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#F0A6B3"/><path d="M8 12l3 3 5-6" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            浜松産、自家製はちみつ100%
-          </li>
-        </ul>
+        <span class="visit-label">🐝 ご来店前にチェック</span>
+        <strong>営業日はInstagramでお知らせしています</strong>
+        <p>臨時休業や営業時間の変更もあります。ご来店前にご確認ください。</p>
       </div>
-      <div class="honeycomb-frame">
-        <div class="hex-cell c-mint">100%<br>Hamamatsu<br>Honey</div>
-        <div class="hex-cell c-honey">Since<br>2021</div>
-        <div class="hex-cell c-dark">3<br>Sisters<br>🐝</div>
-        <div class="hex-cell c-blossom">We love<br>honey<br>bees ♡</div>
-      </div>
+      <a href="https://www.instagram.com/honey_holka/" target="_blank" rel="noopener" class="mini-btn">Instagramを見る →</a>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- ===== MENU ===== -->
-<section class="menu-section" id="menu">
-  <div class="section-inner">
-    <div class="section-head reveal">
-      <span class="tag hand">Menu</span>
-      <h2>自家製はちみつをたっぷり使った、やさしい甘さのドリンク</h2>
-    </div>
-    <div class="menu-layout reveal">
-      <div class="menu-photo">
-        <img src="images/kakigori.png" alt="HONEY HOLKAのはちみつかき氷" loading="lazy">
+  <!-- HONEY -->
+  <section class="honey-lineup" id="honey">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <span class="tag hand">Our Honey</span>
+        <h2>主役は、私たちの自家製はちみつ。</h2>
+        <p>浜松でミツバチを育て、季節の花から採れたはちみつを販売しています。</p>
       </div>
-      <div>
-        <div class="menu-list">
-          <div class="menu-item">
-            <div class="name">生はちみつレモネード</div>
-            <div class="price">¥600</div>
+
+      <div class="honey-cards reveal">
+        <article class="honey-card">
+          <!-- 商品写真は後でこのファイルを差し替えてください -->
+          <div class="product-photo">
+            <img src="images/honey-300g.jpg" alt="自家製はちみつ 300g" loading="lazy">
           </div>
-          <div class="menu-item">
-            <div class="name">バナナハニーミルク</div>
-            <div class="price">¥680</div>
+          <div class="honey-card-body">
+            <span class="product-tag">おすすめ</span>
+            <h3>自家製はちみつ</h3>
+            <p class="size">300g</p>
+            <p class="honey-price">¥2,500 <small>税込</small></p>
           </div>
-          <div class="menu-item">
-            <div class="name">ベリーハニーミルク</div>
-            <div class="price">¥680</div>
+        </article>
+
+        <article class="honey-card">
+          <!-- 商品写真は後でこのファイルを差し替えてください -->
+          <div class="product-photo">
+            <img src="images/honey-200g.jpg" alt="自家製はちみつ 200g" loading="lazy">
           </div>
-          <div class="menu-item">
-            <div class="name">抹茶ハニーミルク</div>
-            <div class="price">¥680</div>
+          <div class="honey-card-body">
+            <span class="product-tag secondary">お試しにも</span>
+            <h3>自家製はちみつ</h3>
+            <p class="size">200g</p>
+            <p class="honey-price">¥2,000 <small>税込</small></p>
           </div>
-          <div class="menu-item">
-            <div class="name">オーガニックカカオ バナナミルク</div>
-            <div class="price">¥680</div>
-          </div>
-          <div class="menu-item">
-            <div class="name">コーヒー <span class="sub">Hot / Ice</span></div>
-            <div class="price">¥680</div>
-          </div>
+        </article>
+      </div>
+
+      <div class="honey-story reveal">
+        <div class="honey-story-photo">
+          <img src="images/honey-pour.jpg" alt="採れたはちみつを瓶に注ぐ様子" loading="lazy">
         </div>
-        <div class="menu-note">
-          <span>🍯 +¥50ではちみつ増量できます</span>
-          <span>🥤 Eat in / Takeout OK</span>
-          <span>（表示価格は税込）</span>
+        <div>
+          <span class="story-kicker">季節ごとに、少しずつ違う。</span>
+          <h3>花が変われば、<br>はちみつの表情も変わります。</h3>
+          <p>香り、色、味わい。季節や咲く花によって、採れるはちみつは少しずつ違います。自分たちでミツバチを育て、自分たちで採蜜しているからこそ伝えられる、はちみつのおいしさを楽しんでください。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STORY -->
+  <section class="story" id="story">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <span class="tag hand">Our Story</span>
+        <h2>はちみつシスターズです。</h2>
+        <p>ミツバチと一緒に、はちみつをつくっています。</p>
+      </div>
+
+      <div class="story-intro reveal">
+        <div class="story-photo-main">
+          <img src="images/sisters.jpg" alt="はちみつシスターズのお二人" loading="lazy">
+        </div>
+        <div class="story-copy">
+          <span class="sisters-badge">🍯 はちみつシスターズ</span>
+          <h3>私たちは、養蜂家です。</h3>
+          <p>私たち「はちみつシスターズ」は、浜松を拠点に養蜂をしています。</p>
+          <p>ミツバチのお世話をして、花を見つけてもらい、巣に集めてくれたはちみつを採蜜する。</p>
+          <p>季節によって咲く花が変われば、採れるはちみつの香りも、色も、味わいも変わります。</p>
+          <p>自分たちでミツバチを育て、自分たちで採ったはちみつだからこそ伝えられる「本物のはちみつのおいしさ」があると思っています。</p>
+          <p>HONEY HOLKAでは、はちみつを販売するだけでなく、ミツバチのこと、養蜂のこと、自然のことをもっと身近に感じてもらえる場所をつくっていきます。</p>
+        </div>
+      </div>
+
+      <div class="story-grid reveal">
+        <figure>
+          <img src="images/harvest.jpg" alt="巣枠からはちみつを採る採蜜風景" loading="lazy">
+          <figcaption>ミツバチが集めてくれたはちみつを採蜜</figcaption>
+        </figure>
+        <figure>
+          <img src="images/beekeeping.jpg" alt="養蜂作業をするはちみつシスターズ" loading="lazy">
+          <figcaption>ミツバチのお世話も、私たちの大切な仕事</figcaption>
+        </figure>
+        <figure>
+          <img src="images/bee-flower.jpg" alt="花にとまるミツバチ" loading="lazy">
+          <figcaption>花とミツバチから生まれる、はちみつ</figcaption>
+        </figure>
+        <figure>
+          <img src="images/apiary.jpg" alt="自然の中にある養蜂箱" loading="lazy">
+          <figcaption>季節の自然の中でミツバチと暮らす</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- DRINK MENU -->
+  <section class="menu-section" id="menu">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <span class="tag hand">At the Shop</span>
+        <h2>販売所では、ドリンクも楽しめます。</h2>
+        <p>主役ははちみつ。販売所で、はちみつを使ったドリンクをどうぞ。</p>
+      </div>
+
+      <div class="menu-layout reveal">
+        <div class="menu-visuals">
+          <div class="menu-photo">
+            <img src="images/lemonade.png" alt="はちみつレモネード" loading="lazy">
+          </div>
+          <div class="menu-photo-small">
+            <img src="images/kakigori.png" alt="夏季限定のはちみつかき氷" loading="lazy">
+          </div>
         </div>
 
-        <div class="kakigori-card">
-          <div class="kakigori-label">🍧 夏季限定</div>
-          <div class="kakigori-title hand">はちみつかき氷</div>
-          <p>国産いちごの生シロップを使ったふわふわかき氷。はちみつのやさしい甘さで仕上げています。数量限定・売り切れ次第終了。</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ===== SHOP ===== -->
-<section class="shop" id="shop">
-  <div class="section-inner">
-    <div class="section-head reveal">
-      <span class="tag hand">Shop Info</span>
-      <h2>店舗情報・アクセス</h2>
-    </div>
-    <div class="shop-grid reveal">
-      <div class="shop-photos">
-        <img src="images/interior.png" alt="HONEY HOLKA 店内風景" loading="lazy" class="shop-interior">
-      </div>
-      <div class="shop-map">
-        <iframe
-          src="https://maps.google.com/maps?q=静岡県浜松市中央区山下町94-2&output=embed&z=16&hl=ja"
-          width="100%" height="100%" style="border:0;" allowfullscreen=""
-          loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-          title="HONEY HOLKA の地図"></iframe>
-      </div>
-      <div class="info-card">
-        <div class="info-row">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s-7-6.5-7-11a7 7 0 0 1 14 0c0 4.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
-          <div>
-            <div class="label">住所</div>
-            <div class="value">〒430-0929<br>静岡県浜松市中央区山下町94-2 1階</div>
-          </div>
-        </div>
-        <div class="info-row">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
-          <div>
-            <div class="label">営業時間</div>
-            <div class="value">10:00 〜 16:00<br>
-              <span class="note-text">金・日は12:30〜13:30 休憩あり</span><br>
-              <span class="note-text">営業日はInstagramをご確認ください</span>
+        <div>
+          <div class="menu-list">
+            <div class="menu-item">
+              <div class="name">はちみつレモネード</div>
+              <div class="price">¥600</div>
+            </div>
+            <div class="menu-item">
+              <div class="name">バナナハニーミルク</div>
+              <div class="price">¥680</div>
+            </div>
+            <div class="menu-item">
+              <div class="name">ベリーハニーミルク</div>
+              <div class="price">¥680</div>
+            </div>
+            <div class="menu-item">
+              <div class="name">抹茶ハニーミルク</div>
+              <div class="price">¥680</div>
+            </div>
+            <div class="menu-item">
+              <div class="name">オーガニックカカオ バナナミルク</div>
+              <div class="price">¥680</div>
+            </div>
+            <div class="menu-item">
+              <div class="name">コーヒー <span class="sub">Hot / Ice</span></div>
+              <div class="price">¥550</div>
             </div>
           </div>
-        </div>
-        <div class="info-row">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
-          <div>
-            <div class="label">ご利用方法</div>
-            <div class="badge-row">
-              <span class="badge">Eat in OK</span>
-              <span class="badge">Takeout OK</span>
-            </div>
+
+          <div class="menu-note">
+            <span>🍯 はちみつ増量 +¥50</span>
+            <span>🥤 販売所でお楽しみいただけます</span>
+            <span>（表示価格は税込）</span>
           </div>
-        </div>
-        <div class="info-row">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-          <div>
-            <div class="label">お問い合わせ</div>
-            <div class="value">
-              <a href="https://www.instagram.com/honey_holka/" target="_blank" rel="noopener" class="link-insta">InstagramのDMへ →</a>
-            </div>
+
+          <div class="kakigori-card">
+            <div class="kakigori-label">🍧 夏季限定</div>
+            <div class="kakigori-title hand">はちみつかき氷</div>
+            <p>ハニーレモン・いちご・抹茶の3種類。ふわふわのかき氷に自家製はちみつをたっぷり。<strong>おすすめは自家製ハニーレモン！</strong>数量限定・売り切れ次第終了。</p>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- ===== SNS ===== -->
-<section class="sns" id="sns">
-  <div class="section-inner">
-    <div class="section-head reveal">
-      <span class="tag hand">Follow us 🐝</span>
-      <h2>SNSでも発信中です</h2>
-      <p class="sns-sub">営業日・お休みのお知らせは毎日Instagramに投稿しています。<br>来店前にかならずご確認ください。</p>
+  <!-- GALLERY -->
+  <section class="gallery">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <span class="tag hand">From the Hive</span>
+        <h2>はちみつができるまで。</h2>
+        <p>ミツバチと花、季節の自然。HONEY HOLKAの日常を少しだけ。</p>
+      </div>
+      <div class="gallery-grid reveal">
+        <figure class="gallery-large">
+          <img src="images/sisters-portrait.jpg" alt="養蜂をするはちみつシスターズ" loading="lazy">
+        </figure>
+        <figure>
+          <img src="images/honey-pour.jpg" alt="はちみつを瓶に注ぐ様子" loading="lazy">
+        </figure>
+        <figure>
+          <img src="images/harvest.jpg" alt="採蜜風景" loading="lazy">
+        </figure>
+        <figure>
+          <img src="images/bee-flower.jpg" alt="花とミツバチ" loading="lazy">
+        </figure>
+        <figure>
+          <img src="images/apiary.jpg" alt="養蜂箱と森" loading="lazy">
+        </figure>
+      </div>
     </div>
-    <div class="sns-buttons reveal">
-      <a class="sns-btn" href="https://www.instagram.com/honey_holka/" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
-        Instagram
-      </a>
-      <a class="sns-btn" href="https://x.com/honey_holka" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.259 5.629L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
-        X (Twitter)
-      </a>
-      <a class="sns-btn" href="https://www.threads.net/@honey_holka" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.472 12.01v-.017c.028-3.574.879-6.43 2.523-8.482C5.845 1.205 8.6.024 12.18 0h.014c2.746.02 5.043.725 6.826 2.098 1.677 1.29 2.858 3.13 3.509 5.467l-2.04.569c-1.104-3.96-3.898-5.984-8.304-6.015-2.91.022-5.11.936-6.54 2.717C4.307 6.504 3.616 8.914 3.589 12c.027 3.086.718 5.496 2.057 7.164 1.43 1.783 3.631 2.698 6.54 2.717 2.623-.02 4.358-.631 5.8-2.045 1.647-1.613 1.618-3.593 1.09-4.798-.31-.71-.873-1.3-1.634-1.75-.192 1.352-.622 2.446-1.284 3.272-.886 1.102-2.14 1.704-3.73 1.79-1.202.065-2.361-.218-3.259-.801-1.063-.689-1.685-1.74-1.752-2.964-.065-1.19.408-2.285 1.33-3.082.88-.76 2.119-1.207 3.583-1.291a13.853 13.853 0 0 1 3.02.142c-.126-.742-.375-1.332-.742-1.757-.438-.505-1.094-.773-1.946-.799h-.061c-.96 0-1.916.296-2.588 1.044l-1.483-1.3c1.01-1.152 2.39-1.685 4.073-1.685h.084c3.105.099 4.863 2.105 4.95 5.55.062.021.124.043.185.066 1.18.448 2.131 1.239 2.748 2.63.91 2.07.893 5.144-1.4 7.378-1.821 1.786-4.053 2.634-7.186 2.655zm.161-9.35c-.955.055-1.68.308-2.154.748-.39.357-.587.82-.556 1.312.03.55.351 1.014.903 1.371.585.379 1.368.559 2.23.512 1.07-.059 1.908-.497 2.49-1.305.466-.639.74-1.485.81-2.518a11.875 11.875 0 0 0-2.723-.12z"/></svg>
-        Threads
-      </a>
-    </div>
-  </div>
-</section>
+  </section>
 
-<!-- ===== FOOTER ===== -->
+  <!-- SHOP -->
+  <section class="shop" id="shop">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <span class="tag hand">Shop Info</span>
+        <h2>販売所へ、どうぞ。</h2>
+        <p>はちみつを選んだり、ドリンクを楽しんだり。お気軽にお立ち寄りください。</p>
+      </div>
+
+      <div class="shop-info-top reveal">
+        <div class="shop-interior-wrap">
+          <img src="images/interior.png" alt="HONEY HOLKAの販売所内" loading="lazy">
+        </div>
+        <div class="info-card">
+          <div class="info-row">
+            <div class="info-icon">📍</div>
+            <div>
+              <div class="label">住所</div>
+              <div class="value">〒430-0929<br>静岡県浜松市中央区山下町94-2 1階</div>
+            </div>
+          </div>
+          <div class="info-row">
+            <div class="info-icon">🕐</div>
+            <div>
+              <div class="label">営業時間</div>
+              <div class="value">10:00 〜 16:00<br>
+                <span class="note-text">金・日は12:30〜13:30 休憩あり</span>
+                <span class="note-text">※営業日はInstagramをご確認ください</span>
+              </div>
+            </div>
+          </div>
+          <div class="info-row">
+            <div class="info-icon">🚗</div>
+            <div>
+              <div class="label">駐車場</div>
+              <div class="value"><strong>専用駐車場はありません。</strong><br>元浜パーキング・山下町コインパーキング（約100m）をご利用ください。</div>
+            </div>
+          </div>
+          <div class="info-row">
+            <div class="info-icon">🥤</div>
+            <div>
+              <div class="label">販売所でできること</div>
+              <div class="badge-row">
+                <span class="badge">はちみつ販売</span>
+                <span class="badge">ドリンク</span>
+                <span class="badge">Eat in</span>
+              </div>
+            </div>
+          </div>
+          <a href="https://www.instagram.com/honey_holka/" target="_blank" rel="noopener" class="instagram-link">営業日をInstagramで確認する →</a>
+        </div>
+      </div>
+
+      <div class="access-block reveal">
+        <div class="access-copy">
+          <span class="tag hand">Access</span>
+          <h3>お車でも、バスでも。<br>お気軽にお越しください。</h3>
+          <p>臨時休業や営業時間の変更はInstagramでお知らせしています。ご来店前に営業日をご確認ください。</p>
+
+          <div class="access-detail">
+            <div class="access-detail-title">🚗 お車でお越しのお客様</div>
+            <p class="access-detail-text"><strong>専用駐車場はありません。</strong><br>
+              当店から南に進んでいただくと「元浜パーキング」があります。<br>
+              また、静岡銀行山下支店を右に曲がると「山下町コインパーキング」がございます。<br>
+              どちらも当店から約100mほどの距離ですので、おすすめです。</p>
+          </div>
+
+          <div class="access-detail">
+            <div class="access-detail-title">🚌 バスでお越しのお客様</div>
+            <p class="access-detail-text">浜松駅12番線から「61番・内野台車庫行き」にご乗車いただき、「元浜町」でお降りください。</p>
+          </div>
+
+          <a href="https://www.instagram.com/honey_holka/" target="_blank" rel="noopener" class="btn btn-mint">Instagramを見る →</a>
+        </div>
+        <div class="shop-map">
+          <iframe
+            src="https://maps.google.com/maps?q=静岡県浜松市中央区山下町94-2&output=embed&z=16&hl=ja"
+            width="100%" height="100%" style="border:0;" allowfullscreen=""
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            title="HONEY HOLKAの地図"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SNS -->
+  <section class="sns" id="sns">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <span class="tag hand">Follow us 🐝</span>
+        <h2>SNSで、今日のHONEY HOLKA。</h2>
+        <p class="sns-sub">営業日・お休みのお知らせや、はちみつ、ミツバチ、販売所の日々を発信しています。<br><strong>来店前はInstagramをご確認ください。</strong></p>
+      </div>
+      <div class="social-cards reveal">
+        <a class="social-card instagram" href="https://www.instagram.com/honey_holka/" target="_blank" rel="noopener">
+          <span class="social-icon">◎</span>
+          <span class="social-body">
+            <strong>Instagram</strong>
+            <small>@honey_holka</small>
+            <em>営業日・お知らせ・日々の養蜂など</em>
+          </span>
+          <span class="social-arrow">→</span>
+        </a>
+
+        <!-- ThreadsのプロフィールURLが確認できたら、hrefを差し替えてください -->
+        <a class="social-card threads" href="https://www.threads.com/@honey_holka" target="_blank" rel="noopener">
+          <span class="social-icon">＠</span>
+          <span class="social-body">
+            <strong>Threads</strong>
+            <small>HONEY HOLKA</small>
+            <em>日々のことや、ちょっとしたお知らせ</em>
+          </span>
+          <span class="social-arrow">→</span>
+        </a>
+
+        <!-- XのプロフィールURLが確認できたら、hrefを差し替えてください -->
+        <a class="social-card x" href="https://x.com/honey_holka" target="_blank" rel="noopener">
+          <span class="social-icon">𝕏</span>
+          <span class="social-body">
+            <strong>X</strong>
+            <small>HONEY HOLKA</small>
+            <em>たまに発信しています</em>
+          </span>
+          <span class="social-arrow">→</span>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
 <footer>
   <span class="hand">we love honey bees ♡</span>
   &copy; 2026 HONEY HOLKA. All rights reserved.
