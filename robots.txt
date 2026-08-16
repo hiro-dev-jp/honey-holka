@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://honey-holka.com/sitemap.xml
+Sitemap: https://honey-holka.hstudio.site/sitemap.xml
